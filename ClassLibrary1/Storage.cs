@@ -11,10 +11,9 @@ namespace ClassLibrary1
         public string Name { get; set; }
         public string Model { get; set; }
         public abstract int GetCapacity();
-        public abstract int Copy();
+        public abstract void Copy(int size);
         public abstract int GetFreeCapacity();
         public abstract string GetInfo();
-
 
     }
 }
